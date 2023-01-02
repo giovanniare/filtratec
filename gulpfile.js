@@ -7,10 +7,10 @@ var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 
 var Paths = {
-    HOME: './',
-    SCSS: '/assets/scss/**/*.scss',
-    CSS: '/assets/css/',
-    HTML: '/**/*.html'
+    HOME: './front_end',
+    SCSS: 'front_end/assets/scss/**/*.scss',
+    CSS: 'front_end/assets/css/',
+    HTML: 'front_end/**/*.html'
 }
 
 // Compile sass into CSS
