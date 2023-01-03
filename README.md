@@ -3,6 +3,15 @@
 This is the project structure
 
 ```
+front_end/
+    ├──  assets
+    │   ├──  css/
+    │   ├──  images/
+    │   ├──  include/
+    │   ├──  js/
+    │   ├──  scss/
+    │   └──  vendor/
+    └── All template HTML files
 gulpfile.js
 package.json
 package-lock.json
