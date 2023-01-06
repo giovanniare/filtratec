@@ -12,6 +12,7 @@ front_end/
     │   ├──  scss/
     │   └──  vendor/
     └── All template HTML files
+app.js
 gulpfile.js
 package.json
 package-lock.json
@@ -37,3 +38,9 @@ $ npm install
 From here, simply run `gulp` from your terminal and you're good to go!
 
 + `gulp` - recompile your theme assets.
+
+To run in production:
+
+```
+$ npm start
+```
