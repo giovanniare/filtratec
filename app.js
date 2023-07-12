@@ -12,3 +12,7 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
     res.render(path.join(__dirname, "index.html"))
 })
+
+app.get("/nosotros", (req, res) => {
+    res.render(path.join(__dirname, "nosotros.html"))
+})

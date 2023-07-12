@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%7CPlayfair+Display:400,400i,700,700i%7CRoboto:400,400i,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
 
     <!-- Plugins CSS -->
     <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
@@ -27,15 +27,11 @@
 </head>
 
 <body>
-    <div class="preloader">
-        <img src="assets/images/preloader_water.svg" alt="Pre-loader">
-    </div>
-
     <!-- =======================
 	header Start-->
     <header class="navbar-sticky navbar-transparent navbar-primary">
         <!-- Search -->
-        <div class="top-search collapse bg-light" id="search-open" data-bs-parent="#search">
+        <!--div class="top-search collapse bg-light" id="search-open" data-bs-parent="#search">
             <div class="container">
                 <div class="row position-relative">
                     <div class="col-md-8 mx-auto py-5">
@@ -50,7 +46,7 @@
                     <a class="position-absolute top-0 end-0 mt-3 me-3 text-end" data-bs-toggle="collapse" href="#search-open"><i class="fa fa-window-close"></i></a>
                 </div>
             </div>
-        </div>
+        </div-->
         <!-- End Search -->
 
         <!-- Logo Nav Start -->
@@ -59,7 +55,7 @@
                 <!-- Logo -->
                 <a class="navbar-brand" href="index.html">
                     <!-- Logo -->
-                    <img class="navbar-brand-item" src="assets/images/header_title.png" alt="Logo">
+                    <img class="navbar-brand-item" src="assets/images/logos/logo_blanco.png" alt="Logo">
                 </a>
                 <!-- Menu opener button -->
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +65,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav navbar-nav-scroll navbar-nav-scroll ms-auto">
                         <!-- Menu item 1 Quines somos?-->
-                        <a class="nav-link active" href="#quienesSomos" id="quinesSomos" aria-haspopup="true" aria-expanded="false">¿Quienes somos?</a>
+                        <a class="nav-link active" href="nosotros.html" id="quinesSomos" aria-haspopup="true" aria-expanded="false">¿Quienes somos?</a>
                         <!-- Menu item 2 Servicios-->
                         <a class="nav-link" href="#servicios" aria-haspopup="true" aria-expanded="false">Servicios</a>
                         <!-- Menu item 3 Catalogo-->
@@ -80,12 +76,11 @@
                 </div>
                 <!-- Main Menu End -->
                 <!-- Header Extras Start-->
-                <div class="navbar-nav">
-                    <!-- extra item Search-->
+                <!--div class="navbar-nav">
                     <div class="nav-item search border-0 ps-3 pe-0 px-lg-2" id="search">
                         <a class="nav-link" data-bs-toggle="collapse" href="#search-open"><i class="ti-search"> </i></a>
                     </div>
-                </div>
+                </div-->
                 <!-- Header Extras End-->
             </div>
         </nav>
@@ -96,169 +91,57 @@
 
     <!-- =======================
 	Main Banner -->
-    <section class="p-0 position-relative h-500 h-md-600 h-xl-900 bg-grad pattern-overlay-1 overflow-hidden">
-        <div class="container d-flex h-100">
-            <div class="row align-self-center w-100">
-                <!-- banner Content -->
-                <div class="col-md-6 mt-md-0 all-text-white position-relative">
-                    <h2 class="display-4 fw-normal">Empresa lider en tratamiento de agua</h2>
-                    <p class="h6 mb-4 fw-normal d-none d-sm-block">Aqui se me ocurre que podria ir una breve descripcion de la empresa o un slogan mamalon.</p>
-                    <a class="btn btn-dark mb-7" href="#">¡Solicita una cotizacion!</a>
+    <section class="p-0 position-relative h-500 h-md-600 h-xl-900 pattern-overlay-1 overflow-hidden">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/slides_portada/portada_2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
                 </div>
-                <!-- banner image -->
-                <div class="col-md-6 d-none d-md-block p-0 position-absolute top-0 end-0 align-top align-text-top">
-                    <figure class="w-100 ie-height-750">
-                        <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1290 1024" style="enable-background:new 0 0 1290 1024;" xml:space="preserve">
-					<g id="XMLID_81_">
-						<defs>
-						<path id="XMLID_3_" d="M1290,0v1024c0,0-229.8-152.2-550-52.9C467.3,1055.7-22.5,927.6,47.8,540C120.4,139.6,17,0,17,0H1290z"/>
-						</defs>
-						<clipPath id="XMLID_83_">
-						<use xlink:href="#XMLID_3_"  style="overflow:visible;"/>
-						</clipPath>
-						<g style="clip-path:url(#XMLID_83_);">
-							<!-- Set your 1290px X 1024px image below -->
-							<image style="overflow:visible;" width="1290" height="1024" id="XMLID_82_" xlink:href="assets/images/banner/portada_rectangulo.gif"  transform="matrix(0.9999 0 0 0.9999 8.063897e-002 6.401104e-002)">
-							</image>
-						</g>
-					</g>
-				</svg>
-                    </figure>
+                <div class="carousel-item">
+                    <img src="assets/images/slides_portada/consumo_humano.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/slides_portada/area_medica.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/slides_portada/area_industrial.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Forth slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
         <canvas class="position-absolute bottom-0 start-50 translate-middle-x mb-n9" id="waveCanvas"></canvas>
     </section>
     <!-- =======================
 	Main banner -->
-
-    <!-- =======================
-	service -->
-    <section class="service pt-0" id="quienesSomos">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8 mx-auto">
-                    <div class="title text-center">
-                        <span class="pre-title">Bienvenido a Filtratec</span>
-                        <h2>Somos una empresa enfocada al tratamiento de agua y todas sus vertientes</h2>
-                        <p class="mb-0">Diseñamos y nos adaptamos a tus necesidades cubriendo todos los apsectos de calidad y sanidad que tu proyecto requiere.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <div class="feature-box h-100 text-center">
-                        <div class="feature-box-icon">
-                            <!--img class="w-50" src="assets/images/clients/03.png" alt=""-->
-                        </div>
-                        <h3 class="feature-box-title">Domestico</h3>
-                        <p class="feature-box-desc">Purificadoras de agua, limpieza de tinacos y sisternas, dispensadores y todo lo necesario para el hogar.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="feature-box h-100 text-center">
-                        <div class="feature-box-icon">
-                            <!--img class="w-50" src="assets/images/clients/02.png" alt=""-->
-                        </div>
-                        <h3 class="feature-box-title">Hospitalario</h3>
-                        <p class="feature-box-desc">Equipos de purificacion extrema, hemodialisis y todo lo que un hospital necesita </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="feature-box h-100 text-center">
-                        <div class="feature-box-icon">
-                            <!--img class="w-50" src="assets/images/clients/01.png" alt=""-->
-                        </div>
-                        <h3 class="feature-box-title">Restaurantero</h3>
-                        <p class="feature-box-desc">Todo lo que tenga que ver con agua para tu restaurant. </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="feature-box h-100 text-center">
-                        <div class="feature-box-icon">
-                            <!--img class="w-50" src="assets/images/clients/04.png" alt=""-->
-                        </div>
-                        <h3 class="feature-box-title">Industrial</h3>
-                        <p class="feature-box-desc">Todo lo que tenga que ver con agua para tu industria. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- =======================
-	service -->
-
-    <!-- =======================
-	about us -->
-    <section class="position-relative bg-light">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <!-- left -->
-                <div class="col-md-6">
-                    <figure class="w-100 ie-height-600">
-                        <svg version="1.1" id="about-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 678 595" style="enable-background:new 0 0 678 595;" xml:space="preserve">
-						<defs>
-						<linearGradient id="BgGradient">
-							<stop class="fill-grad-start" offset="0%"/>
-							<stop class="fill-grad-end" offset="100%"/>
-						</linearGradient>
-						</defs>
-						<path id="about-image-bg" fill="url(#BgGradient)" d="M652.2,493.6c-51.9,58.8-395.9,51.9-395.9,51.9S7.4,581.8,50.6,396.8
-							C82.3,261.5,2.2,56.3,97.3,20c49-18.7,351.7-49,487.8,70.9C713.1,203.4,677.3,465.1,652.2,493.6z"/>
-							<g id="XMLID_120_">
-								<defs>
-								<path id="XMLID_7_" d="M635.5,506.9c-51.9,58.8-395.9,51.9-395.9,51.9S-9.3,595,34,410C65.6,274.7-14.4,69.5,80.6,33.2
-									c49-18.7,351.7-49,487.8,70.9C696.4,216.7,660.6,478.4,635.5,506.9z"/>
-									</defs>
-									<clipPath id="XMLID_155_">
-									<use xlink:href="#XMLID_7_"  style="overflow:visible;"/>
-									</clipPath>
-									<g style="clip-path:url(#XMLID_155_);">
-										
-										<image style="overflow:visible;" width="700" height="700" id="XMLID_121_" xlink:href="assets/images/service/09.jpg"  transform="matrix(0.9999 0 0 0.9999 1 -81)">
-										</image>
-									</g>
-								</g>
-								<circle fill="none" stroke="url(#BgGradient)" stroke-width="8" stroke-miterlimit="10" cx="60" cy="539" r="40"/>
-								<path id="XMLID_149_" fill="url(#BgGradient)" d="M52.6,104.3L25.5,46.5c-2-4.2-0.1-9.4,4.1-11.3l0,0c4.2-2,9.4-0.1,11.3,4.1L68,97c2,4.2,0.1,9.4-4.1,11.3
-								l0,0C59.7,110.4,54.6,108.5,52.6,104.3z"/>
-								<path id="XMLID_150_" fill="url(#BgGradient)" d="M48.1,140.6l-12.8-27.2c-2-4.2-0.1-9.4,4.1-11.3l0,0c4.2-2,9.4-0.1,11.3,4.1l12.8,27.2
-								c2,4.2,0.1,9.4-4.1,11.3l0,0C55.2,146.7,50.1,144.8,48.1,140.6z"/>
-								<circle id="XMLID_151_" fill="url(#BgGradient)" cx="590.9" cy="23.9" r="9.1"/>
-								<circle id="XMLID_152_" fill="url(#BgGradient)" cx="596.8" cy="76.4" r="14.6"/>
-								<circle id="XMLID_153_" fill="url(#BgGradient)" cx="630.8" cy="42.8" r="5.3"/>
-							</svg>
-                    </figure>
-                </div>
-                <!-- right -->
-                <div class="col-md-6 mt-4 mt-md-0">
-                    <h6 class="text-primary">About us</h6>
-                    <h2 class="h1">Your technical partner towards web success.</h2>
-                    <p class="lead">Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs.</p>
-                    <p> Additions can suspected its concealed put furnished. Met the why particular devonshire decisively considered partiality. Certain it waiting no entered is. Passed her indeed uneasy shy polite appear denied. Oh less girl no walk. At
-                        he spot with five of view.</p>
-                    <p><span class="text-dark fw-bold">— Jessica Mores,</span> CEO wizixo</p>
-                    <div class="row">
-                        <div class="col-5"><img src="assets/images/mockups/signature.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- svg wave top-->
-        <figure class="position-absolute top-0 start-0 w-100 d-none d-md-block ie-d-none mt-n3">
-            <svg version="1.1" id="wave-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 43.4" style="enable-background:new 0 0 1920 43.4;" xml:space="preserve">
-				<path id="wave-1-path" class="fill-light" d="M0,23.3c0,0,405.1-43.5,697.6,0c316.5,1.5,108.9-2.6,480.4-14.1c0,0,139-12.2,458.7,14.3 c0,0,67.8,19.2,283.3-22.7v35.1H0V23.3z"/>
-			</svg>
-        </figure>
-        <!-- svg wave bottom-->
-        <figure class="position-absolute bottom-0 start-0 w-100 d-none d-md-block ie-d-none mb-n3">
-            <svg version="1.1" id="wave-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 43.4" style="enable-background:new 0 0 1920 43.4;" xml:space="preserve">
-				<path id="wave-2-path_" class="fill-white" d="M0,23.3c0,0,405.1-43.5,697.6,0c316.5,1.5,108.9-2.6,480.4-14.1c0,0,139-12.2,458.7,14.3 c0,0,67.8,19.2,283.3-22.7v35.1H0V23.3z"/>
-			</svg>
-        </figure>
-    </section>
-    <!-- =======================
-	about us -->
 
     <!-- =======================
 	service -->
