@@ -36,7 +36,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f7f8f9;
   --bs-dark: #343a40;
-  --bs-primary-rgb: 76, 189, 137;
+  --bs-primary-rgb: 58, 25, 214;
   --bs-secondary-rgb: 143, 147, 151;
   --bs-success-rgb: 40, 167, 69;
   --bs-info-rgb: 23, 162, 184;
@@ -7351,6 +7351,10 @@ textarea.form-control-lg {
   top: 50% !important;
 }
 
+.top-70 {
+  top: 70% !important;
+}
+
 .top-100 {
   top: 100% !important;
 }
@@ -8378,6 +8382,10 @@ textarea.form-control-lg {
   margin-top: -3rem !important;
 }
 
+.mt-n5-5 {
+  margin-top: -3.30rem !important;
+}
+
 .mt-n6 {
   margin-top: -4.5rem !important;
 }
@@ -8456,6 +8464,10 @@ textarea.form-control-lg {
 
 .mb-n5 {
   margin-bottom: -3rem !important;
+}
+
+.mb-n5-5 {
+  margin-bottom: -3.75rem !important;
 }
 
 .mb-n6 {
@@ -8880,6 +8892,11 @@ textarea.form-control-lg {
   font-style: italic !important;
 }
 
+.fst-century {
+  font-style: century !important;
+  font-weight: bolder;
+}
+
 .fst-normal {
   font-style: normal !important;
 }
@@ -8930,6 +8947,10 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
 }
 
 .text-decoration-none {
@@ -16426,7 +16447,7 @@ header {
 }
 
 .navbar-primary.navbar-sticky-on {
-  background-color: #008ACF;
+  background: linear-gradient(150deg, #185abc 0%, #00295b 100%);
 }
 
 @media (max-width: 767.98px) {
@@ -19698,8 +19719,81 @@ footer .widget {
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: url('../images/banner/portada_rectangulo.gif');
+  background-image: url('../images/banner/portada_limpia.gif');
   background-size: cover;
   background-position: center;
   /* Si quieres que el GIF se repita, agrega "background-repeat: repeat;" */
+}
+
+.slide-1-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/slides_portada/logo_1024.png');
+  background-size: cover;
+  background-position: center;
+  /* Si quieres que el GIF se repita, agrega "background-repeat: repeat;" */
+}
+
+.slide-2-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/slides_portada/area_industrial_1024.png');
+  background-size: cover;
+  background-position: center;
+  /* Si quieres que el GIF se repita, agrega "background-repeat: repeat;" */
+}
+
+.slide-3-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/slides_portada/area_medica_1024.png');
+  background-size: cover;
+  background-position: center;
+  /* Si quieres que el GIF se repita, agrega "background-repeat: repeat;" */
+}
+
+.slide-4-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/slides_portada/consumo_humano_1024.png');
+  background-size: cover;
+  background-position: center;
+  /* Si quieres que el GIF se repita, agrega "background-repeat: repeat;" */
+}
+
+.top-item {
+  z-index: 1mt-n5
+}
+
+.whats-container {
+  position: fixed;
+  bottom: 30px; /* Ajusta la distancia desde abajo */
+  right: 30px; /* Ajusta la distancia desde la derecha */
+  z-index: 9999; /* Asegura que el logo esté siempre encima de otros elementos */
+  background-color: #2CAA1B;
+}
+
+.whats {
+  width: 70px; /* Ajusta el ancho del logo según tus necesidades */
+  height: 70px; /* Ajusta la altura para mantener la proporción original */
+}
+
+.social-icons-link-1 {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 6px;
+  border: 0;
+  background: transparent;
+  color: #ffff;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }

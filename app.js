@@ -16,3 +16,7 @@ app.get("/", (req, res) => {
 app.get("/nosotros", (req, res) => {
     res.render(path.join(__dirname, "nosotros.html"))
 })
+
+app.get("/catalogo", (req, res) => {
+    res.render(path.join(__dirname, "catalogo.html"))
+})
