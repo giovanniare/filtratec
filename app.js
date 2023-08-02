@@ -20,3 +20,7 @@ app.get("/nosotros", (req, res) => {
 app.get("/catalogo", (req, res) => {
     res.render(path.join(__dirname, "catalogo.html"))
 })
+
+app.get("/contacto", (req, res) => {
+    res.render(path.join(__dirname, "contacto.html"))
+})
