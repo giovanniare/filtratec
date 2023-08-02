@@ -1,4 +1,5 @@
 const express = require("express")
+const path = require("path")
 const port = process.env.PORT || 4000
 
 const app = express()
@@ -10,17 +11,17 @@ app.listen(port, () => {
 })
 
 app.get("/", (req, res) => {
-    res.render(path.join(__dirname, "index.html"))
+    res.sendFile(path.join(__dirname, "/front_end", "index.html"))
 })
 
 app.get("/nosotros", (req, res) => {
-    res.render(path.join(__dirname, "nosotros.html"))
+    res.sendFile(path.join(__dirname, "/front_end", "nosotros.html"))
 })
 
 app.get("/catalogo", (req, res) => {
-    res.render(path.join(__dirname, "catalogo.html"))
+    res.sendFile(path.join(__dirname, "/front_end", "catalogo.html"))
 })
 
 app.get("/contacto", (req, res) => {
-    res.render(path.join(__dirname, "contacto.html"))
+    res.sendFile(path.join(__dirname, "/front_end", "contacto.html"))
 })
